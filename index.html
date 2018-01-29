@@ -1,0 +1,664 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="project/styles.css">
+    <script src="https://use.fontawesome.com/1c97a43cb3.js"></script>
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">-->
+    <title>Hello, world!</title>
+</head>
+<body class="body-wrapper d-flex">
+<header class="sb-header d-flex">
+    <div class="sb-header__nav d-flex">
+        <div class="sb-header__nav-wrapper d-flex col-sm-8">
+            <img src="assets/header/logo.png" alt="duhoot_logo" class="sb-header__logo" >
+            <ul class="sb-header__nav-list d-flex">
+                <li class="sb-header__nav-elem">Reality</li>
+                <li class="sb-header__nav-elem">Living</li>
+                <li class="sb-header__nav-elem">Education</li>
+                <li class="sb-header__nav-elem">Entertainment</li>
+                <li class="sb-header__nav-elem">Mobility</li>
+            </ul>
+
+        </div>
+        <div class="sb-header__search d-flex"><i class="fa fa-search fa-1x" aria-hidden="true"></i></div>
+        <div class="sb-header__login-container col-sm-4 d-flex">
+            <a href="#" class="sb-header__login_button d-flex">
+                <img src="assets/header/login-image.png" alt="login_image" class="sb-header-login-button-image" style="height: 20px;">
+                <span class="sb-header__login-text">Login</span>
+            </a>
+        </div>
+    </div>
+    <div class="sb-header__banner-wrapper d-flex">
+        <div class="sb-header__container-form d-flex">
+            <h2 class="sb-header-text d-flex">What are you looking for?</h2>
+
+            <div class="sb-header__dropdown-buttons d-flex">
+                <a class='sb-header__btn' href='#' data-activates='dropdown1'>Dubai</a>
+                <a class='sb-header__btn sb-header__btn-2' href='#' data-activates='dropdown1'>Education</a>
+            </div>
+            <div class="sb-header__form-wrapper">
+                <form action="" class="sb-header__form">
+                    <input type="text" value="Keyword, name, date, ..." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Keyword, name, date, ...';}">
+                    <div class="sb-header__form-contact_btn">
+                        <label class=" sb-header__form-contact_btn-inner btn1 btn-2 btn-2g d-flex" >
+                            <input name="submit" type="submit" id="submit" value="Search">
+                        </label>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="sb-header__content-filters d-flex">
+        <div class="sb-header__content-filters-wrapper d-flex">
+            <div class="sb-header__content-filters-1 col-md-4 bottom_nav ">
+                <div class="sb-header__content_menu">
+                    <ul class="sb-header__content_menu-li d-flex">
+                        <li class="active"><a href="#">Recommended</a></li>
+                        <li><a href="#">Latest</a></li>
+                        <li><a href="#">Highlights</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="sb-header__content-filters-2 col-md-4 sb-header__content_dropdown-wrapper d-flex">
+                <div class="sb-header__content_dropdown ">
+                    <select>
+                        <option  selected="dropdown" tabindex="9" style="display:none;color:#eee;">Dubai</option>
+                    </select>
+                </div>
+                <div class="sb-header__content_dropdown">
+                    <select>
+                        <option  selected="dropdown" tabindex="9" style="display:none;color:#eee;">Search</option>
+                    </select>
+                </div>
+            </div>
+            <div class="sb-header__content-filters-3 col-md-4 filter_grid">
+                <ul class="filter d-flex text-header">
+                    <li class="fil">Filter:</li>
+                    <li class="sb-header__icon"><a href=""><img src="assets/main/green-home.png" alt=""></a></li>
+                    <li class="sb-header__icon"><a href=""> <img src="assets/main/gray-man.png" alt=""> </a></li>
+                    <li class="sb-header__icon"><a href=""> <img src="assets/main/gray-hat.png" alt=""> </a></li>
+                    <li class="sb-header__icon"><a href=""> <img src="assets/main/yellow-music.png" alt=""> </a></li>
+                    <li class="sb-header__icon"><a href=""> <img src="assets/main/violet-bus.png" alt=""> </a></li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="sb-content d-flex">
+    <div class="sb-content__main-wrapper d-flex">
+        <div class="sb-content__row d-flex">
+            <!----card-->
+            <div class="sb-content__card col-md-3">
+                <div class="grid1 d-flex">
+                    <div class="view view-first">
+                        <div class="index_img">
+                            <img src="assets/main/pic1.png" class="img-responsive" alt="">
+                        </div>
+                        <div class="sb-content__card-price">$2.980</div>
+                    </div>
+                    <a href="#" class="sb-content-link-home-wrapper">
+                        <img src="assets/main/human-resources.png" alt="" class="img_circle sb-content-image-home">
+                    </a>
+                    <div class="sb-content__card-info d-flex">
+                        <h3>2 bedroom house for rent in Dubai</h3>
+                        <ul class="star1">
+                            <h4 class="green">Vision Agency</h4>
+                            <li><a href="#">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                (236)</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!---->
+            <!----card-->
+            <div class="sb-content__card col-md-3">
+                <div class="grid1 d-flex">
+                    <div class="view view-first">
+                        <div class="index_img"><img src="assets/main/pic2.png" class="img-responsive" alt=""></div>
+                        <div class="sb-content__card-price">$2.980</div>
+                    </div>
+                    <a href="#" class="sb-content-link-home-wrapper">
+                        <img src="assets/main/human-resources.png" alt="" class="img_circle sb-content-image-home">
+                    </a>
+                    <div class="sb-content__card-info d-flex">
+                        <h3>2 bedroom house for rent in Dubai</h3>
+                        <ul class="star1">
+                            <h4 class="green">Vision Agency</h4>
+                            <li><a href="#"> <img src="images/star1.png" alt="">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                (236)</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!---->
+            <!----card-->
+            <div class="sb-content__card col-md-3">
+                <div class="grid1 d-flex">
+                    <div class="view view-first">
+                        <div class="index_img"><img src="assets/main/pic1.png" class="img-responsive" alt=""></div>
+                        <div class="sb-content__card-price">$2.980</div>
+                    </div>
+                    <a href="#" class="sb-content-link-home-wrapper">
+                        <img src="assets/main/human-resources.png" alt="" class="img_circle sb-content-image-home">
+                    </a>
+                    <div class="sb-content__card-info d-flex">
+                        <h3>2 bedroom house for rent in Dubai</h3>
+                        <ul class="star1">
+                            <h4 class="green">Vision Agency</h4>
+                            <li><a href="#"> <img src="images/star1.png" alt="">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                (236)</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!---->
+            <!----card-->
+            <div class="sb-content__card col-md-3">
+                <div class="grid1 d-flex">
+                    <div class="view view-first">
+                        <div class="index_img"><img src="assets/main/pic1.png" class="img-responsive" alt=""></div>
+                        <div class="sb-content__card-price">$2.980</div>
+                    </div>
+                    <a href="#" class="sb-content-link-home-wrapper">
+                        <img src="assets/main/human-resources.png" alt="" class="img_circle sb-content-image-home">
+                    </a>
+                    <div class="sb-content__card-info d-flex">
+                        <h3>2 bedroom house for rent in Dubai</h3>
+                        <ul class="star1">
+                            <h4 class="green">Vision Agency</h4>
+                            <li><a href="#"> <img src="images/star1.png" alt="">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                (236)</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!---->
+        </div>
+        <div class="sb-content__row big d-flex">
+            <!----card--BIG-->
+            <div class="sb-content__card big col-md-6">
+                <div class="grid1 d-flex">
+                    <div class="view-big view-first">
+                        <div class="index_img-big">
+                            <img src="assets/main/pic2.png" class="img-responsive none" alt="">
+                        </div>
+                        <div class="sb-content__card-description-wrapper">
+                            <ul class="sb-content__card-description star1 d-flex">
+                                <h4 class="green text-header card-header-text">VISION AGENCY</h4>
+                                <li><a href="#">
+                                    <i class="fa fa-star fa-star-col" aria-hidden="true"></i>
+                                    <i class="fa fa-star fa-star-col" aria-hidden="true"></i>
+                                    <i class="fa fa-star fa-star-col" aria-hidden="true"></i>
+                                    <i class="fa fa-star fa-star-col" aria-hidden="true"></i>
+                                </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <a href="#" class="sb-content-link-home-wrapper-big">
+                        <img src="assets/main/human-resources.png" alt="" class="img_circle-2 sb-content-image-home">
+                    </a>
+                    <div class="sb-content__card-info-big d-flex">
+                        <div class="sb-content__card-info-big-img-wrapper">
+                            <img src="assets/main/boy-1.png" alt="">
+                        </div>
+                        <div class="sb-content__card-info-big-content-wrapper">
+                            <ul class="star1">
+                                <li><a href="#"> <img src="images/star1.png" alt="">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </a>
+                                </li>
+                            </ul>
+                            <h4 class=" spec green card-text-header ">LUCY-P</h4>
+                            <p class=" spec sb-content__card-text card-text">
+                                “Aliquam quis pulvinar purus. Etiam cursus ipsum quis enim faucibus, quis posuere orci ornare. Duis mattis sagittis fringilla.” ...read more
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!---->
+            <!----card--BIG-->
+            <div class="sb-content__card big col-md-6">
+                <div class="grid1 d-flex">
+                    <div class="view-big view-first">
+                        <div class="index_img-big-2">
+                            <img src="assets/main/pic3.png" class="img-responsive none" alt="">
+                        </div>
+                        <div class="sb-content__card-description-wrapper">
+                            <ul class="sb-content__card-description star1 d-flex">
+                                <h4 class="green text-header card-header-text">VISION AGENCY</h4>
+                                <li><a href="#"> <img src="images/star1.png" alt="">
+                                    <i class="fa fa-star fa-star-col" aria-hidden="true"></i>
+                                    <i class="fa fa-star fa-star-col" aria-hidden="true"></i>
+                                    <i class="fa fa-star fa-star-col" aria-hidden="true"></i>
+                                    <i class="fa fa-star fa-star-col" aria-hidden="true"></i>
+                                </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <a href="#" class="sb-content-link-home-wrapper-big">
+                        <img src="assets/main/human-resources.png" alt="" class="img_circle-2 sb-content-image-home">
+                    </a>
+                    <div class="sb-content__card-info-big d-flex">
+                        <div class="sb-content__card-info-big-img-wrapper">
+                            <img src="assets/main/man.png" alt="">
+                        </div>
+                        <div class="sb-content__card-info-big-content-wrapper">
+                            <ul class="star1">
+                                <li><a href="#">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </a>
+                                </li>
+                            </ul>
+                            <h4 class=" spec green card-text-header ">LUCY-P</h4>
+                            <p class=" spec sb-content__card-text card-text">
+                                “Aliquam quis pulvinar purus. Etiam cursus ipsum quis enim faucibus, quis posuere orci ornare. Duis mattis sagittis fringilla.” ...read more
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!---->
+        </div>
+        <div class="sb-content__row d-flex">
+            <!----card-->
+            <div class="sb-content__card col-md-3">
+                <div class="grid1 d-flex">
+                    <div class="view view-first">
+                        <div class="index_img">
+                            <img src="assets/main/pic4.png" class="img-responsive" alt="">
+                        </div>
+                        <div class="sb-content__card-price">$2.980</div>
+                    </div>
+                    <a href="#" class="sb-content-link-home-wrapper">
+                        <img src="assets/main/human-resources.png" alt="" class="img_circle sb-content-image-home">
+                    </a>
+                    <div class="sb-content__card-info d-flex">
+                        <h3>2 bedroom house for rent in Dubai</h3>
+                        <ul class="star1">
+                            <h4 class="green">Vision Agency</h4>
+                            <li><a href="#">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                (236)</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!---->
+            <!----card-->
+            <div class="sb-content__card col-md-3">
+                <div class="grid1 d-flex">
+                    <div class="view view-first">
+                        <div class="index_img"><img src="assets/main/pic3.png" class="img-responsive" alt=""></div>
+                        <div class="sb-content__card-price">$2.980</div>
+                    </div>
+                    <a href="#" class="sb-content-link-home-wrapper">
+                        <img src="assets/main/human-resources.png" alt="" class="img_circle sb-content-image-home">
+                    </a>
+                    <div class="sb-content__card-info d-flex">
+                        <h3>2 bedroom house for rent in Dubai</h3>
+                        <ul class="star1">
+                            <h4 class="green">Vision Agency</h4>
+                            <li><a href="#"> <img src="images/star1.png" alt="">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                (236)</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!---->
+            <!----card-->
+            <div class="sb-content__card col-md-3">
+                <div class="grid1 d-flex">
+                    <div class="view view-first">
+                        <div class="index_img"><img src="assets/main/pic2.png" class="img-responsive" alt=""></div>
+                        <div class="sb-content__card-price">$2.980</div>
+                    </div>
+                    <a href="#" class="sb-content-link-home-wrapper">
+                        <img src="assets/main/human-resources.png" alt="" class="img_circle sb-content-image-home">
+                    </a>
+                    <div class="sb-content__card-info d-flex">
+                        <h3>2 bedroom house for rent in Dubai</h3>
+                        <ul class="star1">
+                            <h4 class="green">Vision Agency</h4>
+                            <li><a href="#"> <img src="images/star1.png" alt="">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                (236)</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!---->
+            <!----card-->
+            <div class="sb-content__card col-md-3">
+                <div class="grid1 d-flex">
+                    <div class="view view-first">
+                        <div class="index_img"><img src="assets/main/pic5.png" class="img-responsive" alt=""></div>
+                        <div class="sb-content__card-price">$2.980</div>
+                    </div>
+                    <a href="#" class="sb-content-link-home-wrapper">
+                        <img src="assets/main/human-resources.png" alt="" class="img_circle sb-content-image-home">
+                    </a>
+                    <div class="sb-content__card-info d-flex">
+                        <h3>2 bedroom house for rent in Dubai</h3>
+                        <ul class="star1">
+                            <h4 class="green">Vision Agency</h4>
+                            <li><a href="#"> <img src="images/star1.png" alt="">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                (236)</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!---->
+        </div>
+        <div class="sb-content__row d-flex">
+            <!----card--BIG-->
+            <div class="sb-content__card col-md-6">
+                <div class="grid1 d-flex">
+                    <div class="view-big view-first">
+                        <div class="index_img-big">
+                            <img src="assets/main/pic6.png" class="img-responsive none" alt="">
+                        </div>
+                        <div class="sb-content__card-description-wrapper">
+                            <ul class="sb-content__card-description star1 d-flex">
+                                <h4 class="green text-header card-header-text">VISION AGENCY</h4>
+                                <li><a href="#"> <img src="images/star1.png" alt="">
+                                    <i class="fa fa-star fa-star-col" aria-hidden="true"></i>
+                                    <i class="fa fa-star fa-star-col" aria-hidden="true"></i>
+                                    <i class="fa fa-star fa-star-col" aria-hidden="true"></i>
+                                    <i class="fa fa-star fa-star-col" aria-hidden="true"></i>
+                                </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <a href="#" class="sb-content-link-home-wrapper-big">
+                        <img src="assets/main/human-resources.png" alt="" class="img_circle-2 sb-content-image-home">
+                    </a>
+                    <div class="sb-content__card-info-big d-flex">
+                        <div class="sb-content__card-info-big-img-wrapper">
+                            <img src="assets/main/man.png" alt="">
+                        </div>
+                        <div class="sb-content__card-info-big-content-wrapper">
+                            <ul class="star1">
+                                <li>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </a>
+                                </li>
+                            </ul>
+                            <h4 class=" spec green card-text-header ">LUCY-P</h4>
+                            <p class=" spec sb-content__card-text card-text">
+                                “Aliquam quis pulvinar purus. Etiam cursus ipsum quis enim faucibus, quis posuere orci ornare. Duis mattis sagittis fringilla.” ...read more
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!---->
+            <!----card-->
+            <div class="sb-content__card col-md-3">
+                <div class="grid1 d-flex">
+                    <div class="view view-first">
+                        <div class="index_img">
+                            <img src="assets/main/pic1.png" class="img-responsive" alt="">
+                        </div>
+                        <div class="sb-content__card-price">$2.980</div>
+                    </div>
+                    <a href="#" class="sb-content-link-home-wrapper">
+                        <img src="assets/main/human-resources.png" alt="" class="img_circle sb-content-image-home">
+                    </a>
+                    <div class="sb-content__card-info d-flex">
+                        <h3>2 bedroom house for rent in Dubai</h3>
+                        <ul class="star1">
+                            <h4 class="green">Vision Agency</h4>
+                            <li><a href="#">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                (236)</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!---->
+            <!----card-->
+            <div class="sb-content__card col-md-3">
+                <div class="grid1 d-flex">
+                    <div class="view view-first">
+                        <div class="index_img">
+                            <img src="assets/main/pic1.png" class="img-responsive" alt="">
+                        </div>
+                        <div class="sb-content__card-price">$2.980</div>
+                    </div>
+                    <a href="#" class="sb-content-link-home-wrapper">
+                        <img src="assets/main/human-resources.png" alt="" class="img_circle sb-content-image-home">
+                    </a>
+                    <div class="sb-content__card-info d-flex">
+                        <h3>2 bedroom house for rent in Dubai</h3>
+                        <ul class="star1">
+                            <h4 class="green">Vision Agency</h4>
+                            <li><a href="#">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                (236)</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!---->
+        </div>
+        <!--Load more BLOCK-->
+        <div class="sb-content__load-more underfooter-text d-flex">
+            <a href="#">Load more <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+        </div>
+        <!---->
+        <!--TEXT BLOCK-->
+        <div class="sb-content__text-container  underfooter-text d-flex">
+            <h3>What can DuHoot offer to you?</h3>
+            <div class="sb-content__text-container-text">
+                Etiam cursus ipsum quis enim faucibus
+            </div>
+        </div>
+        <!---->
+        <!--Pics BLOCK-->
+        <div class="sb-content__icons-block d-flex">
+            <div class="sb-content-icons-block-wrapper d-flex">
+                <ul class="sb-content__icons-block-icon-list d-flex">
+                    <li class="sb-content__icons-block-icon">
+                        <img class="img_circle-3" src="assets/main/contact-pic-card.png" alt="">
+                    </li>
+                    <li class="sb-content__icons-block-icon">
+                        <img  class="img_circle-3" src="assets/main/contact-pic-card.png" alt="">
+                    </li>
+                    <li class="sb-content__icons-block-icon">
+                        <img class="img_circle-3" src="assets/main/contact-pic-card.png" alt="">
+                    </li>
+                    <li class="sb-content__icons-block-icon">
+                        <img class="img_circle-3" src="assets/main/contact-pic-card.png" alt="">
+                    </li>
+                    <li class="sb-content__icons-block-icon">
+                        <img class="img_circle-3" src="assets/main/contact-pic-card.png" alt="">
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!---->
+        <!--TEXT BLOCK-->
+        <div class="sb-content__underfooter underfooter-text d-flex">
+            <div class="sb-content-underfooter-text d-flex">
+                <span>Reality</span>
+            </div>
+            <div class="sb-content__underfooter-columns-wrapper d-flex">
+                <div class="sb-content__underfooter-columns-wrapper-inner d-flex">
+                    <div class="sb-content__underfooter-column-1 d-flex">
+                        <div class="sb-content__underfooter-column-1-image-wrapper">
+                            <img class="img_circle-4" src="assets/main/contact-pic-card.png" alt="">
+                        </div>
+                        <div class="sb-content__underfooter-column-1-text-wrapper">
+                            Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi gravida tellus in purus pharetra, vel dignissim mauris viverra. Maecenas vitae risus est. In hendrerit, massa at.
+                        </div>
+                    </div>
+                    <div class="sb-content__underfooter-column-2 d-flex">
+                        <div class="sb-content__underfooter-column-1-image-wrapper">
+                            <img class="img_circle-4" src="assets/main/contact-pic-card.png" alt="">
+                        </div>
+                        <div class="sb-content__underfooter-column-1-text-wrapper">
+                            Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi gravida tellus in purus pharetra, vel dignissim mauris viverra. Maecenas vitae risus est. In hendrerit, massa at.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!---->
+    </div>
+</div>
+<footer class="sb-footer d-flex">  <div class="bg"></div>
+    <div class="sb-footer-wrapper">
+
+        <div class="sb-footer__subscribe-text d-flex">
+            <h3 class="footer-text-props-1">Subscribe to our newsletter</h3>
+        </div>
+        <div class="sb-footer__email-form d-flex">
+            <form>
+                <span>
+                   <i class="fa fa-envelope-o " aria-hidden="true"></i>
+                    <input type="text" onblur="if (this.value == '') {this.value = 'Enter e-mail';}" class="sb-footer-email-form-wrapper">
+
+                    <label class=" footer_button">
+                        <input name="submit" type="submit" value="Subscribe" class="spec_2">
+                    </label>
+                </span>
+            </form>
+        </div>
+        <div class="sb-footer__inventory d-flex">
+            <div class="sb-footer__inventory-text-block d-flex">
+                <h4 class="footer-text-props-2">
+                    Ipsum quis
+                </h4>
+                <ul class="sb-footer__inventory-text-block-list d-flex footer-text-props-3">
+                    <li class="sb-footer__inventory-text-block-list-items">
+                        <a href="#"> Aliquam quis </a>
+                    </li>
+                    <li class="sb-footer__inventory-text-block-list-items">
+                        <a href="#"> Pulvinar purus </a>
+                    </li>
+                    <li class="sb-footer__inventory-text-block-list-items">
+                        <a href="#"> Etiam cursus </a>
+                    </li>
+                    <li class="sb-footer__inventory-text-block-list-items">
+                        <a href="#"> Ipsum quis </a>
+                    </li>
+                    <li class="sb-footer__inventory-text-block-list-items">
+                        <a href="#"> Enim faucibus </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="sb-footer__inventory-text-block d-flex">
+                <h4 class="footer-text-props-2">
+                    Ipsum quis
+                </h4>
+                <ul class="sb-footer__inventory-text-block-list d-flex footer-text-props-3">
+                    <li class="sb-footer__inventory-text-block-list-items">
+                        <a href="#"> Aliquam quis</a>
+                    </li>
+                    <li class="sb-footer__inventory-text-block-list-items">
+                        <a href="#"> Pulvinar purus</a>
+                    </li>
+                    <li class="sb-footer__inventory-text-block-list-items">
+                        <a href="#">Etiam cursus</a>
+                    </li>
+                    <li class="sb-footer__inventory-text-block-list-items">
+                        <a href="#">Ipsum quis</a>
+                    </li>
+                    <li class="sb-footer__inventory-text-block-list-items">
+                        <a href="#"> Enim faucibus</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="sb-footer__inventory-media d-flex">
+                <h4 class="footer-text-props-2">
+                    Follow us</h4>
+                <ul class="sb-footer__inventory-media-icons-list d-flex">
+                    <li class="sb-footer__inventory-media-icon d">
+                        <i class="fa fa-facebook-square fa-cog fa-2x" aria-hidden="true"></i>
+                    </li>
+                    <li class="sb-footer__inventory-media-icon">
+                        <i class="fa fa-twitter fa-cog fa-2x" aria-hidden="true"></i>
+                    </li>
+                    <li class="sb-footer__inventory-media-icon">
+                        <i class="fa fa-google-plus fa-cog fa-2x" aria-hidden="true"></i>
+                    </li>
+                    <li class="sb-footer__inventory-media-icon">
+                        <i class="fa fa-youtube fa-cog fa-2x" aria-hidden="true"></i>
+                    </li>
+                </ul>
+                <div class="sb-footer__inventory-media-copyright footer-text-props-4">
+                    Copyright © All Rights reserved
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+</body>
+</html>

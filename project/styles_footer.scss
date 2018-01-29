@@ -1,0 +1,108 @@
+//footer ---------------------------------------------
+//
+//
+//
+//
+
+.sb-footer-wrapper {
+  padding: 2% 0;
+  padding-right: 4%;
+  width: 47%;
+}
+
+.sb-footer-wrapper div {
+  padding-bottom: 4%;
+}
+
+.sb-footer {
+  justify-content: center;
+  align-items: center;
+  background: url(./../assets/main/bg-layer.png) no-repeat center top;
+  background-size: cover;
+  //filter: brightness(80%);
+}
+//.bg {
+//  width: 100%;
+//  height: 100%;
+//  position: absolute;
+//
+//}
+
+.sb-footer__subscribe-text {
+  justify-content: center;
+}
+
+.sb-footer__email-form {
+  justify-content: center;
+}
+
+.sb-footer__inventory {
+  padding-top: 2%;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+.sb-footer__inventory-media-icons-list {
+  justify-content: space-around;
+}
+
+.sb-footer__inventory-media {
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sb-footer__inventory-text-block {
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sb-footer__inventory-text-block-list {
+  flex-direction: column;
+}
+
+.fa-cog {
+  color: #fff;
+}
+
+.fa-star-col {
+  color: #fff;
+}
+
+.footer-text-props-2 {
+  font-family: "Gotham Book", sans-serif;
+  color: #fff;
+  font-size: 1.1em;
+  font-weight: 500;
+  margin-bottom: 1em;
+  border-bottom: 1px solid #78766a;
+}
+.footer-text-props-1 {
+  color: #fff;
+  font-family: "Gotham Medium", sans-serif;
+  font-size: 1.5em;
+
+  font-weight: 500;
+}
+
+.footer-text-props-4 {
+  color: #adadad;
+  font-family: "Gotham Medium", sans-serif;
+  font-size: 1.1em;
+  font-weight: 500;
+}
+
+.footer-text-props-3 li a {
+  font-family: "Gotham Book", sans-serif;
+  color: #adadad;
+  font-size: 0.85em;
+  font-weight: 100;
+  line-height: 1.8em;
+  text-transform: none !important;
+}
+
+.card-header-text {
+  color: #fff;
+  font-size: 140%;
+  font-family: "Gotham Bold", sans-serif;
+  font-weight: 500;
+}
