@@ -186,7 +186,7 @@
 }
 
 .img_circle-3 {
-  max-width: 75%;
+  max-width: 100%;
 }
 
 .img_circle-4 {
@@ -276,6 +276,12 @@
 .sb-content-icons-block-wrapper {
   width: 75%;
   align-content: center;
+}
+
+.sb-content__icons-block-icon-list {
+  width: 80%;
+  margin: 0 auto;
+  justify-content: space-between;
 }
 
 .sb-content__underfooter {
